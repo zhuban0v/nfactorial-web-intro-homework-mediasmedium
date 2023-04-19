@@ -1,0 +1,105 @@
+.header {
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 24px;
+}
+.mediumalike {
+    font-family: 'Kanit';
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 22px;
+}
+.leftarrow {
+    width: 24px;
+    height: 24px;
+    margin-left: 160px;
+    margin-top: 88px;
+    padding: 0;
+}
+.authorpic {
+    width: 64px;
+    height: 64px;
+}
+.list {
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.optexts {
+    font-family: 'Inter';
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 18px;
+    opacity: 50%;
+}
+.topichead {
+    display: flex;
+    flex-direction: row;
+    margin-left: 160px;
+    margin-top: 160px;
+    align-items: center;
+}
+.authorsname {
+    font-family: 'Inter';
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 40px;
+}
+.iconprops {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.icons {
+    width: 18px;
+    height: 18px;
+    margin-right: 20px;
+}
+.spacebetween {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.topic {
+    font-family: 'Inter';
+    font-style: Bold;
+    font-size: 34px;
+    line-height: 38px;
+}
+.subtopic {
+    font-family: 'SF Pro Display';
+    font-style: 'Regular';
+    font-size: 24px;
+    line-height: 36px;
+}
+.leftmarg160 {
+    margin-left: 160px;
+}
+.topmarg160 {
+    margin-top: 160px;
+}
+.topicpic {
+    width: 1120px;
+    height: 480px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+.subheader {
+    font-family: 'Inter';
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 160px;
+    margin-top: 70px;
+}
+.content {
+    font-family: 'SF Pro Display';
+    font-style: 'Regular';
+    font-size: 24px;
+    vertical-align: center;
+    margin-right: 160px;
+}
